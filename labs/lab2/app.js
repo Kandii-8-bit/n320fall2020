@@ -6,6 +6,7 @@ class Instrument {
         this.playverb = playverb;
     }
 }
+console.log(Instrument);
 
 //Child classes for different instruments
 class Woodwind extends Instrument {
