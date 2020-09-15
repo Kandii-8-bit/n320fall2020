@@ -33,7 +33,16 @@ class String extends Instrument {
     
 }
 
+// Test for arrays
 
+let myWoodwind = new Woodwind("Toots", "Piccolo", )
+console.log(myWoodwind);
+let myPercussion = new Percussion("Hit", "Snare Drum", )
+console.log(myPercussion);
+let myString = new String("Strum", "Acoustic Guitar", )
+console.log(myString);
+
+//Tried the arrays not sure where to go next, pushed my test for them instead
 
 let myInstruments = [];
 
