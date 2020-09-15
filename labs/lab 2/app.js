@@ -7,3 +7,22 @@ class Instrument {
     }
 }
 
+//Child classes for different instruments
+class Woodwind extends Instrument {
+    constructor(playverb, family)
+    super(playverb, family, veryloud);
+}
+
+class Percussion extends Instrument {
+    constructor(playverb, family)
+    super(playverb, family, extremelyloud)
+}
+
+class String extends Instrument {
+    constructor(playverb, family)
+    super(playverb, family, soft)
+}
+
+let myWoodwind = new Woodwind("Toots", "Piccolo", )
+console.log(Woodwind);
+
