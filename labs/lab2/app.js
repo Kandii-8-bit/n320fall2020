@@ -44,11 +44,11 @@ console.log(myString);
 
 //Tried the arrays not sure where to go next, pushed my test for them instead
 
-let myInstruments = [];
+// let myInstruments = [];
 
-myInstruments[0] = new Woodwind;
+// myInstruments[0] = new Woodwind;
 
-myInstruments[1] = new Percussion;
+// myInstruments[1] = new Percussion;
 
-myInstruments[2] = new String;
-console.log(myInstruments);
+// myInstruments[2] = new String;
+// console.log(myInstruments);
