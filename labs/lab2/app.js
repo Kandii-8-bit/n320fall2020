@@ -33,10 +33,13 @@ class String extends Instrument {
     
 }
 
-let myWoodwind = new Woodwind("Toots", "Piccolo", )
-console.log(myWoodwind);
-let myPercussion = new Percussion("Hit", "Snare Drum", )
-console.log(myPercussion);
-let myString = new String("Strum", "Acoustic Guitar", )
-console.log(myString);
 
+
+let myInstruments = [];
+
+myInstruments[0] = new Woodwind;
+
+myInstruments[1] = new Percussion;
+
+myInstruments[2] = new String;
+console.log(myInstruments);
