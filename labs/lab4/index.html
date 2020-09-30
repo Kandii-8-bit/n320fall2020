@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boardgame SVG</title>
+  </head>
+  <body>
+    <!-- Tic-Tac-Toe -->
+
+    <!-- Needs four lines two vertical, two horizontal, game pieces -->
+    <svg id="board" width="400" height="800">
+      <!-- Vertical -->
+      <line
+        id="lineOne"
+        x1="200"
+        y1="0"
+        x2="200"
+        y2="200"
+        fill="#000000"
+        stroke="#000000"
+      ></line>
+
+      <line
+        id="lineTwo"
+        x1="100"
+        y1="0"
+        x2="100"
+        y2="200"
+        fill="#000000"
+        stroke="#000000"
+      ></line>
+
+      <!-- Horizontal -->
+      <line
+        id="lineThree"
+        x1="10"
+        y1="60"
+        x2="300"
+        y2="60"
+        fill="#000000"
+        stroke="#000000"
+      ></line>
+
+      <line
+        id="lineFour"
+        x1="10"
+        y1="120"
+        x2="300"
+        y2="120"
+        fill="#000000"
+        stroke="#000000"
+      ></line>
+
+      <!-- Gamepiece's -->
+
+      <circle
+        id="gpOne"
+        cx="50"
+        cy="25"
+        r="15"
+        fill="#000000"
+        stroke="#000000"
+      />
+
+      <rect
+        id="gpTwo"
+        x="130"
+        y="80"
+        width="40"
+        height="20"
+        fill="#000000"
+        stroke="#000000"
+      />
+
+      <rect
+        id="gpThree"
+        x="230"
+        y="150"
+        width="40"
+        height="20"
+        fill="#000000"
+        stroke="#000000"
+      />
+    </svg>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
