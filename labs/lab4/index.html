@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boardgame SVG</title>
+
+    <style>
+      .biscuit {
+        fill: #000000;
+        stroke: #000000;
+      }
+    </style>
   </head>
   <body>
     <!-- Tic-Tac-Toe -->
@@ -56,6 +63,7 @@
 
       <circle
         id="gpOne"
+        onclick="changeColor()"
         cx="50"
         cy="25"
         r="15"

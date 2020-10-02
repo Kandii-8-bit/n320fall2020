@@ -21,3 +21,9 @@ console.log(gpTwo);
 
 let gpThree = document.getElementById("gpThree");
 console.log(gpThree);
+
+function changeColor();
+
+function changeColor() {
+  document.getElementById("gpOne").style.color = "#00ff44"
+}
