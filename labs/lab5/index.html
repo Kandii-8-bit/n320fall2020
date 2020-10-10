@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Lab</title>
+    <style>
+        .title {
+            font-weight: bold;
+            font-family: sans-serif;
+            color: #06275c;
+        }
+
+        .topRect {
+            height: 150px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: #06275c;
+        }
+
+        .rowContainer {
+            margin: 0 auto;
+            height: 500px;
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            width:50%;
+            flex-wrap: wrap;
+            /* background-color: burlywood; */
+        }
+
+        .columnOne {
+            height: 150px;
+            width: 220px;
+            background-color: #92278f;
+
+        }
+
+        .columnTwo {
+            height: 150px;
+            width: 200px;
+            background-color: #92278f;
+
+            
+        }
+
+        .columnThree {
+            height: 150px;
+            width: 200px;
+            background-color: #92278f;
+
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <h1 class="title">Title</h1>
+    <div class="topRect"></div>
+
+    <div class="rowContainer">
+        <div class="columnOne"></div>
+        <div class="columnTwo"></div>
+        <div class="columnThree"></div>
+        <div class="columnOne"></div>
+        <div class="columnTwo"></div>
+        <div class="columnThree"></div>
+    </div>
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
+    "></script>
+    <script src="app.js"></script>
+</body>
+</html>
