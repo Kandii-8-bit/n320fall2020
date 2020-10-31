@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 35px;
+  color: #703b80;
+  animation-name: titleText;
+  animation-duration: 5s;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes titleText {
+  from {
+    color: #703b80;
+  }
+  to {
+    color: #b989c7;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  height: 650px;
+  background-color: #b989c7;
+}
+
+.statusUpdate {
+  margin-top: 15px;
+  font-size: 35px;
+}
+
+.statusUpdate .playerGo {
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #703b80;
+}
+
+.gameBoard {
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 15px;
+}
+
+.gameBoardCell {
+  margin-top: 35px;
+  margin-left: 60px;
+  background-color: #703b80;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.x::before {
+  content: url(/assets/x_piece.svg);
+}
+
+.o::before {
+  content: url(/assets/o_piece.svg);
+}
